@@ -335,6 +335,7 @@ function TellMeWhen_IconMenu_Initialize()
 	local name = TellMeWhen_Settings["Groups"][groupID]["Icons"][iconID]["Name"];
 	local iconType = TellMeWhen_Settings["Groups"][groupID]["Icons"][iconID]["Type"];
 	local enabled = TellMeWhen_Settings["Groups"][groupID]["Icons"][iconID]["Enabled"];
+	local onlyOnRaid = TellMeWhen_Settings["Groups"][groupID]["Icons"][iconID]["OnlyOnRaid"]; --EDITED
 
 	if ( UIDROPDOWNMENU_MENU_LEVEL == 2 ) then
 		local subMenus = TellMeWhen_IconMenu_SubMenus;
